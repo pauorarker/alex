@@ -1,10 +1,10 @@
 /* === ABOUT PAGE === */
 .about-page {
   background: linear-gradient(to right,
-    #fdf5e6 47%,
-    rgba(253, 245, 230, 0.5) 48%,
-    rgba(110, 31, 42, 0.5) 52%,
-    #6e1f2a 53%);
+    #E6EAFD 47%,
+    rgba(230, 234, 253, 0.5) 48%,
+    rgba(75, 85, 93, 0.5) 52%,
+    #4B5D5C 53%);
   color: #222;
   min-height: 100vh;
   display: flex;
@@ -33,15 +33,58 @@
   z-index: 1;
   text-align: center;
 }
-.about-page .btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  background-color: #6e1f2a;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
+.button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Estilo para los botones de los lados (CAM GIRL AU y FAN FIC) */
+.btn:not(.destacado) {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+/* Efecto al pasar el mouse sobre los botones pequeños */
+.btn:not(.destacado):hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo específico y destacado para BEST GIRL */
+.btn.destacado {
+    background-color: #E6EAFD;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+/* Efecto al pasar el mouse sobre el botón BEST GIRL */
+.btn.destacado:hover {
+    background-color: #7e8f9c;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(110, 31, 42, 0.4);
+}
+.spotify-player {
+  margin: 30px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
 }
 .spotify-player {
   margin: 30px auto;
