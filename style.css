@@ -2,8 +2,8 @@
 .about-page {
   background: linear-gradient(to right,
     #ffffff 47%,
-    rgba(230, 234, 253, 0.5) 48%,
-    rgba(75, 85, 93, 0.5) 52%,
+    rgba(255, 255, 255, 0.5) 48%,
+    rgba(222, 238, 255, 0.5) 52%,
     #accae4 53%);
   color: #222;
   min-height: 100vh;
