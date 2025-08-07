@@ -61,6 +61,7 @@
 .btn.destacado {
     background-color: #E6EAFD;
     rgba(230, 234, 253, 0.5) 48%,
+    rgba(255, 255, 255, 0.5) 48%,
     color: #ffffff;
     padding: 15px 30px;
     font-size: 18px;
