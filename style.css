@@ -1,10 +1,10 @@
 /* === ABOUT PAGE === */
 .about-page {
   background: linear-gradient(to right,
-    #E6EAFD 47%,
+    #ffffff 47%,
     rgba(230, 234, 253, 0.5) 48%,
     rgba(75, 85, 93, 0.5) 52%,
-    #4B5D5C 53%);
+    #accae4 53%);
   color: #222;
   min-height: 100vh;
   display: flex;
@@ -59,10 +59,8 @@
 }
 
 .btn.destacado {
-    background-color: #E6EAFD;
-    rgba(230, 234, 253, 0.5) 48%,
-    rgba(255, 255, 255, 0.5) 48%,
-    color: #ffffff;
+    background-color: #accae4;
+    color: #000000;
     padding: 15px 30px;
     font-size: 18px;
     text-decoration: none;
