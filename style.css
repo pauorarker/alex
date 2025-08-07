@@ -63,6 +63,7 @@
 /* Estilo específico y destacado para BEST GIRL */
 .btn.destacado {
     background-color: #E6EAFD;
+    rgba(230, 234, 253, 0.5)
     color: white;
     padding: 15px 30px;
     font-size: 18px;
